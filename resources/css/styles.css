@@ -334,9 +334,11 @@ a {
   flex-basis: 100px;
 }
 
+
 .btn {
   padding: 10px 30px;
 }
+
 
 .btn + .btn {
   margin-left: 10px;
