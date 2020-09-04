@@ -642,6 +642,20 @@ a {
   flex-basis: 100%;
 }
 
+@media (max-width: 768px) {
+  .col-12 .card p {
+    visibility: hidden;
+    position: relative;
+  }
+  .col-12 .card p::after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "This is what the navigation menu looks like when the screen is smaller than 768px. When the screen is at or higher than 768px, the menu will be displayed horizontally.";
+  }
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
